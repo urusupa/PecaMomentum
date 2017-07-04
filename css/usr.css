@@ -1,0 +1,158 @@
+/**/
+/**/
+/**/
+
+/*aboutの背景デザイン+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+body.about-back {
+	background-image: url(../img/peercast02.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+}
+body {
+	color: #444;
+	background-color: #fffbc7;
+}
+div.wrapper {
+	background-color: #fffbc7;
+	margin-left: 10px;
+	display: table;
+}
+
+div.header {
+	padding: 0 20px 20px 20px;
+	background-color: #AECC8B;
+	color: #333;
+	text-shadow: 1px 1px 0 #C4E59C;
+	border: 1px solid #54752C;
+	border-bottom: 3px solid #54752C;
+	border-right: 3px solid #54752C;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+div.header h1 {
+	text-shadow: 2px 2px 1px #C4E59C, -1px -1px 1px #849969;
+}
+
+
+div.ypinfo {
+	border: 1px solid #C4E59C;
+	padding: 8px;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	box-shadow: inset 2px 2px 1px rgba(0,0,0,0.25);
+		-moz-box-shadow: inset 2px 2px 1px rgba(0,0,0,0.25);
+		-webkit-box-shadow: inset 2px 2px 1px rgba(0,0,0,0.25);
+	display: table;
+}
+
+/*文字のデザイン++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+div.about-menu {
+	line-height: 150%;
+}
+
+h2 {
+	margin-bottom: 7px;
+}
+h3 {
+	margin-bottom: 7px;
+}
+/*リンクのデザイン+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+a{/*リンクされた文字*/
+    color: #4490ab;
+    font-style:normal;
+    text-decoration: none;
+}
+a:link {/*未訪問のリンク*/
+    color: #4490ab;
+    font-style:normal;
+    text-decoration: none;
+}
+a:visited {/*訪問後のリンク*/
+    color: #4490ab;
+    text-decoration: none;
+}
+a:hover {/*マウスをのせたとき*/
+    color: #a86a78;
+    font-style:normal;
+    text-decoration: none;
+}
+
+div.header a {
+	color: #336B7F;
+}
+div.header a:hover {/*マウスをのせたとき*/
+    color: #a86a78;
+    font-style:normal;
+    text-decoration: none;
+}
+
+
+/*h1クラス用 */
+a.h1link {
+	color:#333;
+	text-decoration:none;
+	font-family: 'Sonsie One', cursive;
+}
+a.h1link:link {/*未訪問のリンク */
+	color:#333;
+	text-decoration:none;
+	font-family: 'Sonsie One', cursive;
+}
+a.h1link:visited {/*訪問後のリンク */
+	color:#333;
+	text-decoration:none;
+	font-family: 'Sonsie One', cursive;
+}
+h1 a.h1link:hover {/*訪問後のリンク */
+	color: #444;
+	text-decoration:none;
+	font-family: 'Sonsie One', cursive;
+}
+
+img a {
+	border: none;
+}
+
+
+/*テーブルのデザイン++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+table.yptable {
+	border: 1px solid #999;
+	padding: 3px;
+	border-collapse: collapse;
+}
+table.yptable th{
+	border: 1px solid #999;
+	padding: 3px;
+}
+table.yptable td{
+	border: 1px solid #999;
+	padding: 3px;
+}
+#listener-num{
+	text-align: right;
+}
+
+.table-hover tbody tr:hover td{/*ホバー時にちょっとわかりやすくなる */
+	background-color:#f0eebb;
+}
+
+
+
+
+/*トップに戻るボタン用のcss+++++++++++++++++++++++++++++++++++++++++++++++++++ */
+div.tothetop {
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	z-index: 1500;
+}
+div.tothetop a {
+	border-radius: 5px;
+	opacity: .25;
+}
+div.tothetop a:hover {
+	opacity: .80;
+}
